@@ -23,7 +23,7 @@ h3 {
     font-size: 35px;
 }
 
-#Menubar {
+#dropdown {
     border: none;
     padding: 10px 10px;
     text-align: center;
@@ -33,7 +33,7 @@ h3 {
     cursor: pointer;
 }
   
-#Menubar:hover {
+#dropdown:hover {
     background-color: #ec87a6;
     color: white;
 }
