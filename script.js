@@ -8,11 +8,11 @@ $(document).ready(function ()
     list.forEach((item, index) => 
                  
     {
-      $("#Menubar").append(`<option value=${index}>${item.name}</option>`);
+      $("#dropdown").append(`<option value=${index}>${item.name}</option>`);
     })
   });
 
-  $("#Menubar").change((e) => {
+  $("#dropdown").change((e) => {
     const item = list[e.target.value];
     $('#showdetails').html(
         `<p><b><i> Short name of item </b></i>:- ${item.short_name} </p>
